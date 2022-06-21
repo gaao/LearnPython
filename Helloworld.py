@@ -20,6 +20,7 @@ s = "名字 %s，年龄 %d，性别 %s"%( name, age, gender )
 print(s)
 
 
+
 # 3、索引
 # 支持正负索引 语法格式 数据对象 [索引]、数据对象 [开始索引：结束索引]、数据对象 [开始索引：结束索引:step=1] 默认从左往后一个一个的
 t = 'hello world!'
@@ -58,3 +59,52 @@ print(ret)
 
 ret1 = '；'.join(ret)
 print(ret1)
+
+# 每个数据类型下有一个零值 bool 为 False
+type
+id
+bool
+print(bool(0))
+print(bool(""))
+print(bool([]))
+print(bool({}))
+
+# 5、逻辑运算符
+# 与 and   或 or 非 not 
+# 输出函数 input 接收的值会变成字符串
+'''
+a = input('num1 是')
+b = input('num2 是')
+addTol = int(a) +int(b)
+print('addTol',addTol) # int 讲数字字符串转化为整形
+'''
+
+# 6、分支语句
+'''
+if 表达式：
+  语句 1
+  语句 2
+else:
+  语句 1
+  语句 2
+
+'''
+if (name == 'gxg' and age == 18):
+  print('信息正确')
+'''
+if 表达式：
+  语句 1
+  语句 2
+elif:
+  语句 1
+  语句 2
+elif:
+  语句 1
+  语句 2
+else:
+  语句 1
+  语句 2
+'''
+
+
+
